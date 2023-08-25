@@ -18,7 +18,7 @@ namespace MethodsExercise
         public static int Add(params int[] numbers) //Params keyword allows any number of integers to be passed into an array called numbers.
         {
             int sum = 0; //Makes variable sum and sets to 0. 0 is the identity element for addition, ie, always set sum to 0 initially; Will add sum of integers passed in;
-            foreach (int num in numbers) //Declares integer variable named num to represent elements in numbers array in line 16.
+            foreach (int num in numbers) //Declares integer variable named num to represent elements in numbers array in line 18.
             {
                 sum += num; //Adds value of num to sum variable during each loop
             }
